@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>table</title>
+     <!-- Style started  -->
+     <style> 
+        #merahai table ,th,tr,td {
+            text-align: center;
+            border : 2px solid black;
+            font-family: 'Times New Roman', Times, serif;
+         }
+        #merahai table{
+            border-collapse: collapse;
+            margin-top: 200px;
+            margin-left: 200px;
+           
+            
+        }
+         #merahai th{
+            padding: 8px;
+        } 
+        tr:nth-child(odd) {
+             background-color:pink;
+        }
+        tr:nth-child(even){
+            background-color: lightblue;
+        }
+        body{
+            background-color: yellow;
+        }
+        #a{ text-align: center;
+           font-family: 'Times New Roman', Times, serif;
+           color:red;
+           
+        }
+        </style>
+        <!-- Style are ended -->
+    </head>
+    <body>
+        <!-- heading starts -->
+    <h1 id="a">Time-Table</h1>
+    <h3 align="center">FYBCA Sem - 1(Academic Year: 2022-23)</h3>
+    <hr>
+    <!-- heading end -->
+    <br>
+    <!-- here we start the table  -->
+    <table id="merahai" align="center" border="3" style="background-color: greenyellow;">
+        <!-- 1st row of heading -->
+        <tr>
+            <th>Time</th>
+            <th>11.00-12.00</th>
+            <th>12.00-1.00</th>
+            <th>01.00-01.45</th>
+            <th>1.45-2.45</th>
+            <th>2.45-3.45</th>
+            <th>3.45-4.45</th>
+            <th>4.45-5.45</th>
+        </tr>
+        <!-- second row start -->
+<tr>
+    <th>PERIOD</th>
+    <td>1</td>
+    <td>2</td>
+    <td rowspan="7"align="center">
+    L <br> <br> <br>
+    U <br> <br> <br>
+    N <br> <br> <br>
+    C <br> <br> <br>
+    H <br> <br> <br>
+    - <br> <br> <br>
+    T <br> <br> <br>
+    I <br> <br> <br>
+    M <br> <br> <br>
+    E <br> <br> <br></td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    
+    </tr>
+    <!-- second row end -->
+    
+        <!-- 3nd row of Monday  -->
+        <tr>
+            <th>Monday</th>
+            <td>FA<br>mba<br>(Roll 1 to 60)</td>
+            <td>FA<br>mba<br>(Roll 1 to 60)</td>
+            <td>FA<br>mba<br>(Roll 1 to 60)</td>
+            <td></td>
+            <td></td>
+            <td></th>
+        </tr>
+        <!-- 4th row of Tuesday  -->
+        <tr>
+            <th>Tuesday</th>
+            <td>FA<br>mba<br>(Roll 61 to 100)</td>
+            <td>FA<br>mba<br>(Roll 61 to 100)</td>
+            <td>FA<br>mba<br>(Roll 61 to 100)</td>
+            <td></td>
+            <td></td>
+            <td></th>
+        </tr>
+        <!-- 5th row of Wedesday  -->
+        <tr>
+            <th>Wedesday</th>
+            <td>WDI <br> KB</td>
+            <td>FC<br> ACW</td>
+            <td>PCI <br> PKP</td>
+            <td>PCI <br> PKP</td>
+            <td colspan="2">
+                F1-PCIL-PKP-LAB1 <br>
+                F2-WDL-KB-LAB2 <br>
+                F3-PCIL-DW-LAB3
+            </td>
+            
+        </tr>
+        <!-- 6th row of Thusday  -->
+        <tr>
+            <th>Thusday</th>
+            <td></td>
+            <td>WDI<br>KB</td>
+            <td>PCI <br> PKP</td>
+            <td colspan="2">
+                F2-PCIL-PKP-LAB1<br>
+                F3-FCI-KB-LAB3
+            </td>
+            <td></th>
+        </tr>
+        <!-- 7th row of friday  -->
+        <tr>
+            <th>Friday</th>
+            <td></td>
+            <td>WDI <br> KB</td>
+            <td>FC<br>ACW</td>
+            <td>WDI <br> KB</td>
+            <td colspan="2">
+                F1-FCL-ACW-LAB2<br>
+                F4-WDI-KB-LAB2
+            </td>
+        </tr>
+        <!-- 8th row of saturday  -->
+        <tr>
+            <th>Saturday</th>
+            <td colspan="2">
+                F1-WDI-KB-LAB2<br> 
+                F2-FCL-ACW-LAB3<br>
+                F4-PCIL-PKP-LAB1
+            </td>
+            <!-- <td></td> -->
+            <td>FC <br> ACW</td>
+            <td>FC <br> ACW</td>
+            <td colspan="2">
+            F3-WDL-KB-LAB3
+            </td>
+            </tr>
+        </table>
+    </body>
+</html>
