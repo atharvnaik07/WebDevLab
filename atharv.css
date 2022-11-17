@@ -1,0 +1,49 @@
+/* Element Selector */
+
+body{
+    background-color: aqua;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+}
+
+/* Group Selector */
+
+h1,p,h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Class Selector */
+
+.mycl{
+    border: 3px solid whitesmoke;
+    background-color: aquamarine;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+/* Id Selector */
+#poem{
+    color: brown;
+}
+#heading,#author{
+    color: blue;
+}
+
+/* Universal Selector */
+*{
+    text-align: center;
+}
+
+/* Child Selector */
+
+p>i>u{
+    color: cadetblue;
+}
